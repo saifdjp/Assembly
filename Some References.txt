@@ -1,0 +1,6 @@
+Newline:
+https://stackoverflow.com/questions/15832893/printing-a-new-line-in-assembly-language-with-ms-dos-int-21h-system-calls
+
+
+Interepts 21h:
+http://stanislavs.org/helppc/int_21.html
