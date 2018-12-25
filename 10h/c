@@ -1,0 +1,4 @@
+mount f C:\\tasmnew\\bin
+f:
+tasm
+tlink
