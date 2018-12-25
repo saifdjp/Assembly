@@ -13,23 +13,23 @@ j db 1
 
 proc main        
     mov bx,@data  
-    MOV DS,bx     
+    mov DS,bx     
     
      
     
-    MOV AX,500
-    MOV DX,1000
+    mov AX,500
+    mov DX,1000
     MUL DX
     
     
-    ;MOV al,1
-    ;MOV CX, 2
+    ;mov al,1
+    ;mov CX, 2
     ;L:
         ;add al,1
        ; loop L
         
     
-    ;MOV i,1
+    ;mov i,1
     L:
       TEST AX,1
       JNZ one
@@ -48,7 +48,7 @@ proc main
     one:
      add ones,1
      
-     ROL AX,1
+     rol AX,1
      
      add i,1
      CMP i,17
@@ -61,7 +61,7 @@ proc main
       TEST DX,1
       JNZ one2
         
-      ROL DX,1
+      rol DX,1
       
       
       
